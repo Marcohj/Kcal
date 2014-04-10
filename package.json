@@ -1,0 +1,22 @@
+{
+  "name": "Kcal",
+  "version": "0.0.1-2",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "underscore": "*",
+    "underscore.string": "*",
+    "coffee-script": "*",
+    "mongoose": "*",
+    "connect-mongo": "*",
+    "cheerio": "*",
+    "request": "*"
+  },
+  "subdomain": "kcal",
+  "engines": {
+    "node": "*"
+  }
+}

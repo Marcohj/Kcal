@@ -1,0 +1,17 @@
+Thu Apr 10 2014 12:05:23 GMT+0200 (CEST):
+{ [Error: ENOENT, no such file or directory 'dropbox/credentials']
+  stack: [Getter/Setter],
+  errno: 34,
+  code: 'ENOENT',
+  path: 'dropbox/credentials',
+  syscall: 'open',
+  __frame: undefined,
+  rawStack: [Getter] }
+Error: ENOENT, no such file or directory 'dropbox/credentials'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at readFileContents (/usr/local/lib/node_modules/azure-cli/lib/util/profile/publishSettings.js:28:23)
+    at Object.importPublishSettings [as import] (/usr/local/lib/node_modules/azure-cli/lib/util/profile/publishSettings.js:91:13)
+    at Profile._.extend.importPublishSettings (/usr/local/lib/node_modules/azure-cli/lib/util/profile/profile.js:185:34)
+    at __4 (/usr/local/lib/node_modules/azure-cli/lib/commands/account._js:78:23)
+
