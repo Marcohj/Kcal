@@ -6,10 +6,10 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "*",
+    "express": "3.*",
     "underscore": "*",
     "underscore.string": "*",
-    "coffee-script": "*",
+    "coffee-script": "1.6.*",
     "mongoose": "*",
     "connect-mongo": "*",
     "cheerio": "*",
