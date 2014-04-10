@@ -48,19 +48,18 @@ app.get "/api/food/:type", routes.api.food.listByType
 # CRON
 app.get "/cron/all", routes.cron.kalorietabel.all
 
-app.get "/cron/fruits", routes.cron.kalorietabel.fruits
-app.get "/cron/vegetables", routes.cron.kalorietabel.vegetables
-app.get "/cron/beans", routes.cron.kalorietabel.beans
-app.get "/cron/maize", routes.cron.kalorietabel.maize
-app.get "/cron/nut", routes.cron.kalorietabel.nut
-app.get "/cron/fish", routes.cron.kalorietabel.fish
-
-app.get "/cron/meat", routes.cron.kalorietabel.meat
-app.get "/cron/poultry", routes.cron.kalorietabel.poultry
-app.get "/cron/dairy", routes.cron.kalorietabel.dairy
-app.get "/cron/fats", routes.cron.kalorietabel.fats
-app.get "/cron/candy", routes.cron.kalorietabel.candy
-app.get "/cron/drinks", routes.cron.kalorietabel.drinks
+# app.get "/cron/fruits", routes.cron.kalorietabel.fruits
+# app.get "/cron/vegetables", routes.cron.kalorietabel.vegetables
+# app.get "/cron/beans", routes.cron.kalorietabel.beans
+# app.get "/cron/maize", routes.cron.kalorietabel.maize
+# app.get "/cron/nut", routes.cron.kalorietabel.nut
+# app.get "/cron/fish", routes.cron.kalorietabel.fish
+# app.get "/cron/meat", routes.cron.kalorietabel.meat
+# app.get "/cron/poultry", routes.cron.kalorietabel.poultry
+# app.get "/cron/dairy", routes.cron.kalorietabel.dairy
+# app.get "/cron/fats", routes.cron.kalorietabel.fats
+# app.get "/cron/candy", routes.cron.kalorietabel.candy
+# app.get "/cron/drinks", routes.cron.kalorietabel.drinks
 
 app.all "/api/*", sendJson
 
